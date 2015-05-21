@@ -24,7 +24,6 @@
    [2 "B" "Lastname"]
    [3 "C" nil]))
 
-
 (deftest roundtrip-test
   (let [tmp-path "/tmp/sparquet-test/test.parquet"]
     ;; try to delete path, to clean up from earlier
