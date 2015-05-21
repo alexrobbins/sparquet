@@ -2,6 +2,12 @@
 
 Easily read and write Thrift-defined Parquet files from Flambo (the Clojure spark dsl).
 
+## Latest Version
+
+The latest release version of parquet-thrift-cascalog is hosted on [Clojars](https://clojars.org):
+
+[![Clojars Project](http://clojars.org/sparquet/latest-version.svg)](http://clojars.org/sparquet)
+
 ## Usage
 
 ```clojure
