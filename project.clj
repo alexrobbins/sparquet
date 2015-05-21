@@ -1,4 +1,4 @@
-(defproject sparquet "0.1.0-SNAPSHOT"
+(defproject sparquet "0.1.0"
   :description "Easy integration for thrift defined parquet and Flambo."
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
