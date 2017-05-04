@@ -1,8 +1,9 @@
 (ns sparquet.core
   (:require [flambo.api :as f]
             [flambo.tuple :as ft])
-  (:import [parquet.hadoop.thrift ParquetThriftInputFormat
-                                  ParquetThriftOutputFormat]
+  (:import [org.apache.parquet.hadoop.thrift
+            ParquetThriftInputFormat
+            ParquetThriftOutputFormat]
            [org.apache.hadoop.mapreduce Job]))
 
 (defn read-parquet
